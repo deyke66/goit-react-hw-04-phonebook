@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid peru;
+    padding: 20px 70px;background-color: antiquewhite;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.input{
+    margin-top: 5px;
+    padding: 5px;
+}
+.btn{
+    padding: 9px;
+}
+.btn:hover, .btn:focus{
+    background-color: bisque;
+    border: none;
+}

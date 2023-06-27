@@ -1,0 +1,23 @@
+.contacts_list{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.contacts_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contacts_btn {
+    margin-left: 20px;
+    padding: 10px;
+}
+.contacts_btn:hover, .contacts_btn:focus{
+    background-color: bisque;
+    border: none;
+}
+.contacts_info{
+    margin: 0 0 10px 0;
+}
